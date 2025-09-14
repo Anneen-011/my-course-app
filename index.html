@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="th">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ระบบถอนรายวิชา</title>
+    <!-- Tailwind CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-green-50 min-h-screen flex flex-col">
+
+    <!-- Header -->
+    <header class="bg-green-400 text-white py-6 shadow-lg">
+      <h1 class="text-3xl md:text-4xl font-bold text-center">ระบบถอนรายวิชา</h1>
+      <p class="text-center mt-2 text-yellow-100">จัดการรายวิชาได้ง่ายและสะดวก</p>
+    </header>
+
+    <!-- Main content -->
+    <main class="flex-1 flex items-center justify-center p-6">
+      <div id="root" class="w-full max-w-3xl bg-white rounded-2xl shadow-xl p-8">
+        <!-- React app จะ render ที่นี่ -->
+      </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-green-400 text-white py-4 mt-auto text-center">
+      &copy; 2025 ระบบถอนรายวิชา | วิทยาการคอมพิวเตอร์ มหาวิทยาลัยแม่โจ้
+    </footer>
+
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
