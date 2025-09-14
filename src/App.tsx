@@ -1,6 +1,6 @@
 import CourseForm from "./components/CourseForm";
 import CourseList from "./components/CourseList";
-import GPAResult from "./components/gpaResult";
+import GPAResult from "./components/GPAResult";
 
 function App() {
   return (
